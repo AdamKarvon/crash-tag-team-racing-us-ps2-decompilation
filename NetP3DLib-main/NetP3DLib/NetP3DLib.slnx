@@ -1,0 +1,7 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path=".editorconfig" />
+  </Folder>
+  <Project Path="NetP3DLib.Generators/NetP3DLib.Generators.csproj" />
+  <Project Path="NetP3DLib/NetP3DLib.csproj" />
+</Solution>

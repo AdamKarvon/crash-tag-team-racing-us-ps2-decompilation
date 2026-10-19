@@ -1,0 +1,134 @@
+﻿Known chunk identifiers: 256. Loaded chunk classes: 252.
+	Missing class for identifier: Frontend_Multi_Sprite_2 (0x18022)
+	Missing class for identifier: Frontend_Multi_Text_2 (0x18023)
+	Missing class for identifier: Frontend_Pure3D_Object_2 (0x18024)
+	Missing class for identifier: State_Prop_State_Data_V2 (0x8020009)
+	Missing class for identifier: State_Prop_Data_V2 (0x802000A)
+=== RECURSIVE TEXTURE SCAN ===
+Total textures found: 21
+
+Texture: icon_saving.tga
+  Tex Properties: Width=32, Height=32, Type=PS2_8Bit, Bpp=8
+  Image Child: Format=PS28Bit, Width=32, Height=32, Bpp=8, Palettized=True, HasAlpha=True
+    Data Length: 2076 bytes
+    First 16 bytes: 50 33 44 49 0E 00 00 00 20 00 00 00 20 00 00 00
+
+Texture: C:\Work\CrashBuild\DUBLIN\game\build\content\..\..\export\art\frontend\fonts\MyriadPro-Bold_22_texture_0
+  Tex Properties: Width=256, Height=256, Type=PS2_4Bit, Bpp=4
+  Image Child: Format=PS24Bit, Width=256, Height=256, Bpp=4, Palettized=True, HasAlpha=True
+    Data Length: 32860 bytes
+    First 16 bytes: 50 33 44 49 0D 00 00 00 00 01 00 00 00 01 00 00
+
+Texture: C:\Work\CrashBuild\DUBLIN\game\build\content\..\..\export\art\frontend\fonts\MyriadPro-Bold_22_texture_1
+  Tex Properties: Width=128, Height=32, Type=PS2_4Bit, Bpp=4
+  Image Child: Format=PS24Bit, Width=128, Height=32, Bpp=4, Palettized=True, HasAlpha=True
+    Data Length: 2140 bytes
+    First 16 bytes: 50 33 44 49 0D 00 00 00 80 00 00 00 20 00 00 00
+
+Texture: C:\Work\CrashBuild\DUBLIN\game\build\content\..\..\export\art\frontend\_frontend_pal\fonts\LT_531441_24_texture_0
+  Tex Properties: Width=256, Height=256, Type=PS2_4Bit, Bpp=4
+  Image Child: Format=PS24Bit, Width=256, Height=256, Bpp=4, Palettized=True, HasAlpha=True
+    Data Length: 32860 bytes
+    First 16 bytes: 50 33 44 49 0D 00 00 00 00 01 00 00 00 01 00 00
+
+Texture: C:\Work\CrashBuild\DUBLIN\game\build\content\..\..\export\art\frontend\_frontend_pal\fonts\LT_531441_24_texture_1
+  Tex Properties: Width=256, Height=256, Type=PS2_4Bit, Bpp=4
+  Image Child: Format=PS24Bit, Width=256, Height=256, Bpp=4, Palettized=True, HasAlpha=True
+    Data Length: 32860 bytes
+    First 16 bytes: 50 33 44 49 0D 00 00 00 00 01 00 00 00 01 00 00
+
+Texture: C:\Work\CrashBuild\DUBLIN\game\build\content\..\..\export\art\frontend\_frontend_pal\fonts\LT_531441_24_texture_2
+  Tex Properties: Width=32, Height=32, Type=PS2_8Bit, Bpp=8
+  Image Child: Format=PS28Bit, Width=32, Height=32, Bpp=8, Palettized=True, HasAlpha=True
+    Data Length: 2076 bytes
+    First 16 bytes: 50 33 44 49 0E 00 00 00 20 00 00 00 20 00 00 00
+
+Texture: C:\Work\CrashBuild\DUBLIN\game\build\content\..\..\export\art\frontend\_frontend_pal\fonts\LT_531441_24_texture_3
+  Tex Properties: Width=32, Height=32, Type=PS2_8Bit, Bpp=8
+  Image Child: Format=PS28Bit, Width=32, Height=32, Bpp=8, Palettized=True, HasAlpha=True
+    Data Length: 2076 bytes
+    First 16 bytes: 50 33 44 49 0E 00 00 00 20 00 00 00 20 00 00 00
+
+Texture: C:\Work\CrashBuild\DUBLIN\game\build\content\..\..\export\art\frontend\_frontend_pal\fonts\LT_531441_24_texture_4
+  Tex Properties: Width=32, Height=32, Type=PS2_8Bit, Bpp=8
+  Image Child: Format=PS28Bit, Width=32, Height=32, Bpp=8, Palettized=True, HasAlpha=True
+    Data Length: 2076 bytes
+    First 16 bytes: 50 33 44 49 0E 00 00 00 20 00 00 00 20 00 00 00
+
+Texture: C:\Work\CrashBuild\DUBLIN\game\build\content\..\..\export\art\frontend\_frontend_pal\fonts\LT_531441_24_texture_5
+  Tex Properties: Width=32, Height=32, Type=PS2_8Bit, Bpp=8
+  Image Child: Format=PS28Bit, Width=32, Height=32, Bpp=8, Palettized=True, HasAlpha=True
+    Data Length: 2076 bytes
+    First 16 bytes: 50 33 44 49 0E 00 00 00 20 00 00 00 20 00 00 00
+
+Texture: C:\Work\CrashBuild\DUBLIN\game\build\content\..\..\export\art\frontend\_frontend_pal\fonts\LT_531441_24_texture_6
+  Tex Properties: Width=32, Height=32, Type=PS2_8Bit, Bpp=8
+  Image Child: Format=PS28Bit, Width=32, Height=32, Bpp=8, Palettized=True, HasAlpha=True
+    Data Length: 2076 bytes
+    First 16 bytes: 50 33 44 49 0E 00 00 00 20 00 00 00 20 00 00 00
+
+Texture: C:\Work\CrashBuild\DUBLIN\game\build\content\..\..\export\art\frontend\_frontend_pal\fonts\LT_531441_24_texture_7
+  Tex Properties: Width=32, Height=32, Type=PS2_8Bit, Bpp=8
+  Image Child: Format=PS28Bit, Width=32, Height=32, Bpp=8, Palettized=True, HasAlpha=True
+    Data Length: 2076 bytes
+    First 16 bytes: 50 33 44 49 0E 00 00 00 20 00 00 00 20 00 00 00
+
+Texture: C:\Work\CrashBuild\DUBLIN\game\build\content\..\..\export\art\frontend\_frontend_pal\fonts\LT_531441_24_texture_8
+  Tex Properties: Width=32, Height=32, Type=PS2_8Bit, Bpp=8
+  Image Child: Format=PS28Bit, Width=32, Height=32, Bpp=8, Palettized=True, HasAlpha=True
+    Data Length: 2076 bytes
+    First 16 bytes: 50 33 44 49 0E 00 00 00 20 00 00 00 20 00 00 00
+
+Texture: C:\Work\CrashBuild\DUBLIN\game\build\content\..\..\export\art\frontend\_frontend_pal\fonts\LT_531441_24_texture_9
+  Tex Properties: Width=64, Height=64, Type=PS2_8Bit, Bpp=8
+  Image Child: Format=PS28Bit, Width=64, Height=64, Bpp=8, Palettized=True, HasAlpha=True
+    Data Length: 5148 bytes
+    First 16 bytes: 50 33 44 49 0E 00 00 00 40 00 00 00 40 00 00 00
+
+Texture: C:\Work\CrashBuild\DUBLIN\game\build\content\..\..\export\art\frontend\_frontend_pal\fonts\LT_531441_24_texture_10
+  Tex Properties: Width=32, Height=32, Type=PS2_8Bit, Bpp=8
+  Image Child: Format=PS28Bit, Width=32, Height=32, Bpp=8, Palettized=True, HasAlpha=True
+    Data Length: 2076 bytes
+    First 16 bytes: 50 33 44 49 0E 00 00 00 20 00 00 00 20 00 00 00
+
+Texture: C:\Work\CrashBuild\DUBLIN\game\build\content\..\..\export\art\frontend\_frontend_pal\fonts\LT_531441_24_texture_11
+  Tex Properties: Width=32, Height=32, Type=PS2_8Bit, Bpp=8
+  Image Child: Format=PS28Bit, Width=32, Height=32, Bpp=8, Palettized=True, HasAlpha=True
+    Data Length: 2076 bytes
+    First 16 bytes: 50 33 44 49 0E 00 00 00 20 00 00 00 20 00 00 00
+
+Texture: C:\Work\CrashBuild\DUBLIN\game\build\content\..\..\export\art\frontend\_frontend_pal\fonts\LT_531441_24_texture_12
+  Tex Properties: Width=32, Height=32, Type=PS2_8Bit, Bpp=8
+  Image Child: Format=PS28Bit, Width=32, Height=32, Bpp=8, Palettized=True, HasAlpha=True
+    Data Length: 2076 bytes
+    First 16 bytes: 50 33 44 49 0E 00 00 00 20 00 00 00 20 00 00 00
+
+Texture: C:\Work\CrashBuild\DUBLIN\game\build\content\..\..\export\art\frontend\_frontend_pal\fonts\LT_531441_24_texture_13
+  Tex Properties: Width=32, Height=32, Type=PS2_8Bit, Bpp=8
+  Image Child: Format=PS28Bit, Width=32, Height=32, Bpp=8, Palettized=True, HasAlpha=True
+    Data Length: 2076 bytes
+    First 16 bytes: 50 33 44 49 0E 00 00 00 20 00 00 00 20 00 00 00
+
+Texture: C:\Work\CrashBuild\DUBLIN\game\build\content\..\..\export\art\frontend\_frontend_pal\fonts\LT_531441_24_texture_14
+  Tex Properties: Width=32, Height=32, Type=PS2_8Bit, Bpp=8
+  Image Child: Format=PS28Bit, Width=32, Height=32, Bpp=8, Palettized=True, HasAlpha=True
+    Data Length: 2076 bytes
+    First 16 bytes: 50 33 44 49 0E 00 00 00 20 00 00 00 20 00 00 00
+
+Texture: C:\Work\CrashBuild\DUBLIN\game\build\content\..\..\export\art\frontend\_frontend_pal\fonts\LT_531441_24_texture_15
+  Tex Properties: Width=32, Height=32, Type=PS2_8Bit, Bpp=8
+  Image Child: Format=PS28Bit, Width=32, Height=32, Bpp=8, Palettized=True, HasAlpha=True
+    Data Length: 2076 bytes
+    First 16 bytes: 50 33 44 49 0E 00 00 00 20 00 00 00 20 00 00 00
+
+Texture: C:\Work\CrashBuild\DUBLIN\game\build\content\..\..\export\art\frontend\_frontend_pal\fonts\LT_531441_24_texture_16
+  Tex Properties: Width=32, Height=32, Type=PS2_8Bit, Bpp=8
+  Image Child: Format=PS28Bit, Width=32, Height=32, Bpp=8, Palettized=True, HasAlpha=True
+    Data Length: 2076 bytes
+    First 16 bytes: 50 33 44 49 0E 00 00 00 20 00 00 00 20 00 00 00
+
+Texture: C:\Work\CrashBuild\DUBLIN\game\build\content\..\..\export\art\frontend\_frontend_pal\fonts\LT_531441_24_texture_17
+  Tex Properties: Width=32, Height=32, Type=PS2_8Bit, Bpp=8
+  Image Child: Format=PS28Bit, Width=32, Height=32, Bpp=8, Palettized=True, HasAlpha=True
+    Data Length: 2076 bytes
+    First 16 bytes: 50 33 44 49 0E 00 00 00 20 00 00 00 20 00 00 00

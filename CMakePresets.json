@@ -1,0 +1,40 @@
+{
+  "version": 6,
+  "cmakeMinimumRequired": {
+    "major": 3,
+    "minor": 20,
+    "patch": 0
+  },
+  "configurePresets": [
+    {
+      "name": "vs2022-x64",
+      "displayName": "Visual Studio 2022 x64",
+      "generator": "Visual Studio 17 2022",
+      "architecture": "x64",
+      "binaryDir": "${sourceDir}/scratch/cttr_build_vs2022",
+      "cacheVariables": {
+        "CMAKE_INSTALL_PREFIX": "${sourceDir}/scratch/install"
+      }
+    },
+    {
+      "name": "ninja",
+      "displayName": "Ninja",
+      "generator": "Ninja",
+      "binaryDir": "${sourceDir}/scratch/cttr_build_ninja",
+      "cacheVariables": {
+        "CMAKE_INSTALL_PREFIX": "${sourceDir}/scratch/install"
+      }
+    }
+  ],
+  "buildPresets": [
+    {
+      "name": "vs2022-x64",
+      "configurePreset": "vs2022-x64",
+      "configuration": "Debug"
+    },
+    {
+      "name": "ninja",
+      "configurePreset": "ninja"
+    }
+  ]
+}

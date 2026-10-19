@@ -1,0 +1,46 @@
+# CMake build output
+/build/
+/scratch/
+/Testing/
+
+# CMake and IDE state
+CMakeUserPresets.json
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+.vs/
+.idea/
+
+# .NET build output
+**/bin/
+**/obj/
+
+# Python caches
+__pycache__/
+*.py[cod]
+
+# Locally extracted or generated game data; do not commit retail assets.
+/game_data/
+/assets/
+
+# Local reference repositories and texture packs
+/cttr-main/
+/cttr-tp-main/
+/Pure3D-master/
+
+# Renderer verification outputs
+/verification/cttr_vehicle_proxy.obj
+/verification/cttr_vehicle_preview.ppm
+/verification/cttr_vehicle_report.txt
+
+# Local diagnostic logs
+/output.txt
+/dumper_output.txt
+/web_track_data.json
+/test_parse.cpp
+
+# Private investigation notes and agent prompts
+**/*[Hh][Aa][Nn][Dd][Oo][Ff][Ff]*.md
+**/*[Hh][Aa][Nn][Dd][Oo][Vv][Ee][Rr]*.md
+**/*[Pp][Rr][Oo][Mm][Pp][Tt]*.md
