@@ -19,13 +19,13 @@ The codebase is split into distinct layers designed for deterministic execution,
 ```mermaid
 graph TD
     %% Assets Pipeline
-    subgraph Asset Pipeline [Asset Pipeline (Python)]
+    subgraph Asset_Pipeline["Asset Pipeline (Python)"]
         ISO[Crash Tag Team Racing ISO] -->|pycdlib| RAW_RCF[Raw RCF Files]
         RAW_RCF -->|rcf_extractor.py| EXTRACTED[Extracted .p3d & .god Assets]
     end
 
     %% Parsing Layer
-    subgraph Parsing Layer [Parsing Layer (C++)]
+    subgraph Parsing_Layer["Parsing Layer (C++)"]
         EXTRACTED -->|P3DParser| ParsedFile[ParsedP3DFile Intermediate Representation]
         ParsedFile -->|Mesh Data| ParsedMesh[ParsedMesh Structures]
         ParsedFile -->|Joint & Rest Matrix| ParsedBone[ParsedBone Structures]
@@ -33,7 +33,7 @@ graph TD
     end
 
     %% Engine Runtime
-    subgraph Engine Runtime [Engine Runtime (C++)]
+    subgraph Engine_Runtime["Engine Runtime (C++)"]
         ParsedMesh -->|Z-Handedness Inversion| P3DLoader[P3DLoader Runtime Builder]
         P3DLoader -->|GPU Vertex Buffers VAO/VBO/EBO| GLRenderer[GLRenderer OpenGL Engine]
         P3DLoader -->|Joint Hierarchy / Transforms| DebugDraw[DebugDraw Joint Visualizer]
@@ -42,7 +42,7 @@ graph TD
     end
 
     %% Multiplayer Server
-    subgraph LAN Server [Multiplayer Authoritative Layer]
+    subgraph LAN_Server["Multiplayer Authoritative Layer"]
         VehicleSim -->|Tick Rate Loop 60Hz| LanServer[LanServer Authoritative Sync]
         ClientState[Client Player Inputs] -->|ClientInputPacket| LanServer
         LanServer -->|VehicleStatePacket & Hash Sync| ClientState
